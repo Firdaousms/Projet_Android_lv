@@ -6,9 +6,6 @@
     android:layout_height="match_parent"
     >
 
-
-
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="402dp"
@@ -17,10 +14,6 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="251dp">
-
-
-
-
 
     </LinearLayout>
 
@@ -41,15 +34,15 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="-3dp">
+
         <RelativeLayout
             android:id="@+id/linearLayout2"
             android:layout_width="412dp"
-            android:layout_height="105dp"
+            android:layout_height="74dp"
             android:orientation="vertical"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="3dp"
             tools:layout_editor_absoluteY="146dp">
-
 
 
             <ImageView
@@ -66,7 +59,6 @@
                 tools:ignore="MissingConstraints"></ImageView>
 
 
-
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
@@ -77,6 +69,7 @@
                 android:src="@drawable/shopping_cart"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"></ImageView>
+
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="19dp"
@@ -86,9 +79,10 @@
                 android:src="@drawable/vector"></ImageView>
 
         </RelativeLayout>
+
         <TextView
             android:id="@+id/textView"
-            android:layout_width="265dp"
+            android:layout_width="297dp"
             android:layout_height="37dp"
             android:layout_gravity="center"
             android:background="@drawable/textview_border"
@@ -100,31 +94,32 @@
 
 
             />
+
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
             android:src="@drawable/group_5"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="356dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"/>
+            tools:layout_editor_absoluteY="356dp" />
 
         <Button
-            android:layout_width="129dp"
+            android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="9dp"
-            android:background="@drawable/custom_button"
+            android:background="@drawable/shape"
             android:text="Ajouter"
             app:backgroundTint="#00B0FF" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="186dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="9dp"
-            android:background="@drawable/custom_button"
+            android:background="@drawable/shape"
             android:text="Rechercher"
             app:backgroundTint="#00B0FF" />
 
