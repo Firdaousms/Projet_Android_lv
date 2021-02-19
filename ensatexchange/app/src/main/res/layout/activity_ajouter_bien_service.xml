@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjouterBienService">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_info"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="28dp"
+        android:src="@drawable/shopping_cart"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SERVICES"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="215dp"
+        android:src="@drawable/service"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="214dp"
+        android:src="@drawable/bien"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENS"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="46dp"
+        android:text="J'offre mon service avec un clic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="46dp"
+        android:text="J'offre mon bien avec un clic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <Button
+        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle_shape"
+        app:backgroundTint="#00B0FF"
+        app:icon="@drawable/icon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle_shape"
+        app:backgroundTint="#00B0FF"
+        app:icon="@drawable/icon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
