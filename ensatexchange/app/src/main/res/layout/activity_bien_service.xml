@@ -6,129 +6,109 @@
     android:layout_height="match_parent"
     >
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="402dp"
-        android:layout_height="60dp"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="251dp">
 
-    </LinearLayout>
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/ic_info"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        tools:ignore="MissingConstraints" />
 
-    <LinearLayout
+
+    <ImageView
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rechercher_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ajouter_btn"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="44dp"
+        android:src="@drawable/shopping_cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/vector"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="313dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/textview_border"
+        android:gravity="center_vertical"
+        android:rotationY="-6"
+        android:text="@string/search"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:drawableStartCompat="@drawable/scope" />
+
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout">
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="405dp"
-        android:layout_height="729dp"
-
-        android:orientation="vertical"
+        android:src="@drawable/group_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.077"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="-3dp">
+        tools:layout_editor_absoluteX="0dp" />
 
-        <RelativeLayout
-            android:id="@+id/linearLayout2"
-            android:layout_width="412dp"
-            android:layout_height="74dp"
-            android:orientation="vertical"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="3dp"
-            tools:layout_editor_absoluteY="146dp">
+    <Button
+        android:id="@+id/rechercher_btn"
+        android:layout_width="213dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/shape"
+        android:text="@string/rechercher"
+        app:backgroundTint="#00B0FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ajouter_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ajouter_btn" />
 
-
-            <ImageView
-                android:layout_width="8dp"
-                android:layout_height="wrap_content"
-
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-
-                android:layout_marginTop="40dp"
-                android:src="@drawable/ic_info"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="MissingConstraints"></ImageView>
-
-
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="352dp"
-                android:layout_marginLeft="352dp"
-                android:layout_marginTop="44dp"
-                android:src="@drawable/shopping_cart"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"></ImageView>
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="19dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="292dp"
-                android:layout_marginTop="152dp"
-                android:src="@drawable/vector"></ImageView>
-
-        </RelativeLayout>
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="297dp"
-            android:layout_height="37dp"
-            android:layout_gravity="center"
-            android:background="@drawable/textview_border"
-            android:drawableLeft="@drawable/scope"
-            android:gravity="center_vertical"
-            android:rotationY="-6"
-            android:text="  Search"
-            android:textSize="17dp"
-
-
-            />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
-            android:src="@drawable/group_5"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="356dp" />
-
-        <Button
-            android:id="@+id/ajouter_btn"
-            android:layout_width="185dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="9dp"
-            android:background="@drawable/shape"
-            android:text="Ajouter"
-            app:backgroundTint="#00B0FF" />
-
-        <Button
-            android:id="@+id/rechercher_btn"
-            android:layout_width="186dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="9dp"
-            android:background="@drawable/shape"
-            android:text="Rechercher"
-            app:backgroundTint="#00B0FF" />
-
-
-    </LinearLayout>
-
-
+    <Button
+        android:id="@+id/ajouter_btn"
+        android:layout_width="213dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape"
+        android:text="@string/ajouter"
+        app:backgroundTint="#00B0FF"
+        app:layout_constraintBottom_toTopOf="@+id/rechercher_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
